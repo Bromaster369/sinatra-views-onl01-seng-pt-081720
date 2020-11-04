@@ -11,6 +11,6 @@ class App < Sinatra::Base
   end
   
   get "/info" do
-      "Testing the info page"
+       ern :info 
   end 
 end
